@@ -4,8 +4,8 @@
 
 # MQTT-Mosquito server installation on Ubuntu
 Installation Commands:
-> $ sudo apt update
-> $ sudo apt install -y mosquitto mosquitto-clients
+1. $ sudo apt update
+2. $ sudo apt install -y mosquitto mosquitto-clients
 Check Mosquitto detail:
 > $ mosquitto -v
 Auto-run on-boot command:
