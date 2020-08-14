@@ -24,3 +24,9 @@ Terminal 1: Subscribe a topic
 
 Terminal 2: Publish message of the topic
 >$ mosquitto_pub -d -t testTopic -m "Hello Mosquitto's subscriber"
+
+
+Disclaimer
+>This cource is designde by Bidyut Debnath(me) Email: bdnath.me@gmail.com
+
+>Some of the resources are developed by the help of @Arduino @Wiki @CISCO @TutorialPoint 
