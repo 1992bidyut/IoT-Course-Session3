@@ -6,12 +6,15 @@
 Installation Commands:
 1. $ sudo apt update
 2. $ sudo apt install -y mosquitto mosquitto-clients
+
 Check Mosquitto detail:
-> $ mosquitto -v
+1. $ mosquitto -v
+
 Auto-run on-boot command:
-> $ sudo systemctl enable mosquitto.service
+1. $ sudo systemctl enable mosquitto.service
+
 Find Hostname:
-> $ hostname -I
+1. $ hostname -I
 
 # Test mosquitto server
 Terminal 1: Subscribe a topic
