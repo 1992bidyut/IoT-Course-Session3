@@ -32,4 +32,4 @@ Terminal 2: Publish message of the topic
 Disclaimer
 >This cource is designde by Bidyut Debnath(me) Email: bdnath.me@gmail.com
 
->Some of the resources are developed by the help of @Arduino @Wiki @CISCO @TutorialPoint 
+>Some of the resources are developed by the help of open source tutorials like @Arduino @Wiki @CISCO @TutorialPoint @w3school
