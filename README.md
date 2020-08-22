@@ -2,7 +2,7 @@
 >To open the circuit diagram(.pdsprj) you need Proteus 8.7 software
 
 >You need ArduinoIDE for open arduino and nodeMCU code
-- Required Arduino Support Library:
+> Required Arduino Support Library:
 - DHT22 library
 - NodeMCU board library: http://arduino.esp8266.com/stable/package_esp8266com_index.json
 - ArduinoJson
