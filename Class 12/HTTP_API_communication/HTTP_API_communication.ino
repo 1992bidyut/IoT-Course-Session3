@@ -6,7 +6,6 @@
 #include<ArduinoJson.h>
 
 ESP8266WiFiMulti WiFiMulti;
-
 String uname="bdnath.me@gmail.com";
 String upass="abcd";
 String deviceId="iotc31654";
@@ -21,7 +20,7 @@ WiFiMulti.addAP("Lareye.com","lareye@2020");
 void loop() {
  if(WiFiMulti.run() == WL_CONNECTED){
   HTTPClient http;
-  String url="http://192.168.0.103/devine_it/S3/pull_switch_state.php";
+  String url="http://192.168.0.103/devine_it/S3/api_module/pull_switch_state.php";
   //JSON Encode
   StaticJsonDocument<300> requestDoc;//declare JSON Document
   requestDoc["uname"]=uname;
